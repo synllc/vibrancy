@@ -1,0 +1,36 @@
+{
+  "name": "@synllc/vibrancy",
+  "version": "1.0.0",
+  "description": "Adds Mica and Acrylic effects to Electron browsers. Windows 11+ only.",
+  "main": "dist/vibrancy.js",
+  "types": "dist/vibrancy.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "install": "cd addon && node-gyp configure"
+  },
+  "gypfile": true,
+  "keywords": [
+    "electron",
+    "vibrancy",
+    "acrylic",
+    "mica"
+  ],
+  "homepage": "https://github.com/synllc/vibrancy",
+  "bugs": "https://github.com/synllc/vibrancy/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/synllc/vibrancy.git"
+  },
+  "author": "Synapse Softworks LLC",
+  "license": "MIT",
+  "devDependencies": {
+    "node-gyp": "^9.3.1",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "electron": "^20"
+  },
+  "files": [
+    "/dist"
+  ]
+}
