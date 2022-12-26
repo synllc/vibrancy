@@ -4,6 +4,8 @@ Adds Mica and Acrylic rendering support to Electron browser windows. Currently, 
 
 This module was written to replace [Glasstron](https://github.com/NyaomiDEV/Glasstron), which has been abandoned by its author. macOS and Linux support is planned to be added later on.
 
+**NOTE:** If you are using a bundler like Webpack or Vite, then you **must** define `@synllc/vibrancy` as an external module in your build configuration because of its usage of native extensions.
+
 ## Getting started
 
 ### Prerequisites and installation
