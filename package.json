@@ -24,6 +24,7 @@
   "author": "Synapse Softworks LLC",
   "license": "MIT",
   "devDependencies": {
+    "node-abi": "^3.33.0",
     "node-gyp": "^9.3.1",
     "typescript": "^4.9.4"
   },
